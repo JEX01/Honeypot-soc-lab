@@ -1,0 +1,7 @@
+# Enable Windows logon auditing for the Wazuh endpoint.
+# Run in an Administrator PowerShell window.
+
+auditpol /set /subcategory:"Logon" /success:enable /failure:enable
+auditpol /set /subcategory:"Credential Validation" /success:enable /failure:enable
+auditpol /set /subcategory:"Account Lockout" /success:enable /failure:enable
+auditpol /get /subcategory:"Logon"
