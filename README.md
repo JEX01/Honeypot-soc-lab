@@ -13,11 +13,11 @@ The lab runs entirely on an isolated VMware host-only network. Nothing is expose
 | [Overview](#overview) | Goals and what the lab demonstrates |
 | [Project Stages](#project-stages) | The nine stages and how they map to the work |
 | [Architecture](#architecture) | Virtual machines, addresses, and data flow |
-| [Attack Simulation (Stage 5)](#attack-simulation-stage-5) | The attacks run against the lab and what each one produced |
-| [Detection Rules (Stage 6)](#detection-rules-stage-6) | The four custom rules and their logic |
-| [Investigation (Stage 7)](#investigation-stage-7) | Timeline, findings, and recommended fixes |
-| [Dashboards (Stage 8)](#dashboards-stage-8) | Saved searches and how to use them |
-| [Validation (Stage 9)](#validation-stage-9) | Test results, false-positive review, and requirement coverage |
+| [Attack Simulation ](#attack-simulation-stage-5) | The attacks run against the lab and what each one produced |
+| [Detection Rules ](#detection-rules-stage-6) | The four custom rules and their logic |
+| [Investigation ](#investigation-stage-7) | Timeline, findings, and recommended fixes |
+| [Dashboards ](#dashboards-stage-8) | Saved searches and how to use them |
+| [Validation )](#validation-stage-9) | Test results, false-positive review, and requirement coverage |
 | [Requirements](#requirements) | Host specifications and downloads |
 | [Installation](#installation) | Full build guide (see `docs/INSTALLATION.md`) |
 | [Maintenance After Reboot](#maintenance-after-reboot) | Steps to run each time the lab starts |
