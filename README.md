@@ -17,7 +17,7 @@ The lab runs entirely on an isolated VMware host-only network. Nothing is expose
 | [Detection Rules ](#detection-rules-stage-6) | The four custom rules and their logic |
 | [Investigation ](#investigation-stage-7) | Timeline, findings, and recommended fixes |
 | [Dashboards ](#dashboards-stage-8) | Saved searches and how to use them |
-| [Validation )](#validation-stage-9) | Test results, false-positive review, and requirement coverage |
+| [Validation ](#validation-stage-9) | Test results, false-positive review, and requirement coverage |
 | [Requirements](#requirements) | Host specifications and downloads |
 | [Installation](#installation) | Full build guide (see `docs/INSTALLATION.md`) |
 | [Maintenance After Reboot](#maintenance-after-reboot) | Steps to run each time the lab starts |
@@ -91,7 +91,7 @@ All virtual machines sit on VMware's host-only network. The honeypot is never br
 
 ---
 
-## Attack Simulation (Stage 5)
+## Attack Simulation 
 
 The lab was exercised with four kinds of activity. Each one targets the honeypot or the Windows endpoint on the isolated network, and each produced recorded evidence.
 
@@ -150,7 +150,7 @@ Deliberate logons on the Windows endpoint, including a failed attempt and a succ
 
 ---
 
-## Detection Rules (Stage 6)
+## Detection Rules 
 
 Rules are stored in `/var/ossec/etc/rules/local_rules.xml` on the Wazuh server.
 
@@ -170,7 +170,7 @@ Rules are stored in `/var/ossec/etc/rules/local_rules.xml` on the Wazuh server.
 
 ---
 
-## Investigation (Stage 7)
+## Investigation 
 
 ### Scope
 
@@ -222,7 +222,7 @@ Times below are UTC, the clock on both VMs. Discover displays them in IST (UTC+0
 
 ---
 
-## Dashboards (Stage 8)
+## Dashboards 
 
 The dashboard stage uses saved Discover searches on `wazuh-alerts-*`. Each search answers one question an analyst would ask.
 
@@ -266,7 +266,7 @@ Isolates failed Windows logons for review.
 
 ---
 
-## Validation (Stage 9)
+## Validation 
 
 ### Test set
 
@@ -305,8 +305,8 @@ Isolates failed Windows logons for review.
 | SSH brute-force detection | Rule 100102 on the SSH decoy |
 | Port scanning detection | Rules 100101 and 100102 on the decoy services |
 | Custom Wazuh detection rules | Rules 100100 to 100103 |
-| Alert investigation | Investigation (Stage 7) |
-| Security dashboards | Dashboards (Stage 8) |
+| Alert investigation | Investigation |
+| Security dashboards | Dashboards  |
 
 ---
 
